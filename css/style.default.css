@@ -1956,20 +1956,20 @@ h6,
 }
 h1,
 .h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 h2,
 .h2 {
-  font-size: 38px;
+  font-size: 32px;
 }
 h3,
 .h3 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
 }
 h4,
 .h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 h5,
@@ -2112,4 +2112,23 @@ a.list-group-item.active > .badge,
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
+}
+a.button {
+  text-decoration: none;
+  color: #633b70;
+  background-color: #fff;
+  border: 2px solid #633b70;
+  border-radius: 22px;
+  padding: 8px 20px 8px 20px;
+  font-size: 24px;
+  transition: background-color .3s;
+}
+
+a.button:hover {
+  background-color: #f2f2f2; 
+}
+
+.small {
+  font-size: 10px;
+  color: #633b70;
 }
