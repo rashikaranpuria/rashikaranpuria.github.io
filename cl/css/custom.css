@@ -270,45 +270,34 @@ p.social.social--outline a {
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
-
-@media (min-width: 481px) and (max-width: 767px) {
+/*iphone 6*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+{
   
 	.row-100 {
 		height: auto;
 	}
   
-	.row_top {
+	/**/
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{ 
+	.row-100 {
 		height: auto;
-		display: inline;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		width: 100%;
 	}
-
-.row_bottom {
-	height: auto;
-	display: inline;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-	width: 100%;
 }
 
-.row_center {
-	padding-top: 60px;
-	display: inline;
-    align-items: center;
-    justify-content: center;
-	width: 100%;
-}
-
-.row_center_no_pad {
-	padding-top: 40px;
-	display: inline;
-    align-items: center;
-    justify-content: center;
-	width: 100%;
-}
-
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) { 
+	.row-100 {
+			height: auto;
+	}
 }
