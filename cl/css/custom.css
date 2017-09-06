@@ -277,4 +277,38 @@ p.social.social--outline a {
 		height: auto;
 	}
   
+	.row_top {
+		height: auto;
+		display: inline;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+.row_bottom {
+	height: auto;
+	display: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	width: 100%;
+}
+
+.row_center {
+	padding-top: 60px;
+	display: inline;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+}
+
+.row_center_no_pad {
+	padding-top: 40px;
+	display: inline;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+}
+
 }
