@@ -1,25 +1,69 @@
 #left_container {
-	height: 100%;
-	background: #ffffff;
+  height: 100%;
+  background: #ffffff;
 }
 
 #right_container {
-	height: 100%;
-	background: #ffffff;
-	background-position: 0px 0px;
-	 background-size: cover;  
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/bg.png") ;
-	animation: 200s linear 0s normal none infinite animatedBackground;
-	-webkit-animation: animatedBackground 700s linear infinite;
-	-moz-animation: animatedBackground 700s linear infinite;
-	-ms-animation: animatedBackground 700s linear infinite;
-	-o-animation: animatedBackground 700s linear infinite;
+  height: 100%;
+  background: #ffffff;
+  background-position: 0px 0px;
+   background-size: cover;  
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/bg.png") ;
+  animation: 200s linear 0s normal none infinite animatedBackground;
+  -webkit-animation: animatedBackground 700s linear infinite;
+  -moz-animation: animatedBackground 700s linear infinite;
+  -ms-animation: animatedBackground 700s linear infinite;
+  -o-animation: animatedBackground 700s linear infinite;
+}
+.margin_10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+.margin_20_all {
+  margin: 20px;
+}
+
+.margin_20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pad_40 {
+  padding: 40px;
+}
+.pad_20 {
+  padding: 20px;
+}
+
+.pad_20_sans_top {
+  padding: 30px;
+  padding-top: 0px;
+}
+
+.margin_40_top {
+  margin-top: 40px;
+}
 
 .container {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 0px !important;
+  margin: 0 auto !importantl
+}
+
+.edit_text {
+    width: 100%;
+    border: 0px;
+    border: 0px;
+    background: transparent;
+    border-bottom: 2px solid #b2b2b2;
+    padding: 8px;
+    margin-top: 20px;
+}
+.edit_text:focus {
+    border-bottom: 2px solid #ff5f8f;
+    outline: none;
 }
 
 @keyframes animatedBackground {
@@ -47,7 +91,7 @@
     to { background-position: 0 100%; }
 }
 
- h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, li {
+ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, li, label {
     font-family: 'Raleway' !important;
     margin: 0px;
     font-weight: 300;
@@ -57,7 +101,7 @@
 }
 
 .medium {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .row {
@@ -70,77 +114,89 @@ html, body {
 }
 
 .row-100 {
-	height: 100%;
+  height: 100%;
 }
 
 .img-responsive {
     margin: 0 auto;
 }
 
-.btn_pink {
-	background: #ff5f8f;
-	color: #ffffff;
-	font-weight: 500;
-	padding: 10px 40px 10px 40px;
-	border-radius: 2px;
-	-webkit-transition: background-color 1000ms linear;
-    -moz-transition: background-color 1000ms linear;
-    -o-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
+.width_100 {
+  width: 100%;
+
 }
-a.btn_pink:hover {
-	background: #ff7fa5;
-	text-decoration: none;
-	color: white;
+
+.margin_20_top {
+  margin-top: 20px;
+}
+
+.btn_pink {
+  cursor: pointer;
+  background: #ff5f8f;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px 40px 10px 40px;
+  border-radius: 4px;
+  outline: none;
+  border: 0px;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+}
+.btn_pink:hover {
+  background: #ff7fa5;
+  text-decoration: none;
+  color: white;
 }
 
 button.null {
-	background: transparent;
-	border: 0px;
-	outline: none;
+  background: transparent;
+  border: 0px;
+  outline: none;
 }
 
 
 .row_top {
-	text-align: center;
-	height: 90%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	width: 100%;
+  text-align: center;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .row_bottom {
-	height: 10%;
-	display: flex;
+  height: 10%;
+  display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-	width: 100%;
+  width: 100%;
 }
 
 .row_center {
-	padding-top: 60px;
-	display: flex;
+  padding-top: 60px;
+  display: flex;
     align-items: center;
     justify-content: center;
-	width: 100%;
+  width: 100%;
 }
 
 .row_center_no_pad {
-	padding-top: 40px;
-	display: flex;
+  padding-top: 40px;
+  display: flex;
     align-items: center;
     justify-content: center;
-	width: 100%;
+  width: 100%;
 }
 
 
 .small{
-	font-size: 10px;
-	text-align: center;
-	margin-bottom: -30px;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: -30px;
 }
 
 
@@ -192,6 +248,33 @@ p.social.social--outline a {
    background-color: white;
 }
 /**/
+
+.nav-tabs > li > a {
+    color: #2c3e5f;
+    font-size: 18px;
+    font-weight: 400;
+    background: #f2f2f2;
+    border-radius: 0px;
+    border: 0px !important;
+}
+.nav-tabs.nav-justified>li.active>a, .nav-tabs.nav-justified>li.active>a:focus, .nav-tabs.nav-justified>li.active>a:hover {
+    color: #ffffff;
+    cursor: default;
+    border: 0px;
+    background: #ff7fa5;
+    border-radius: 0px;
+    border: 0px !important;
+}
+
+.nav-tabs.nav-justified>li>a {
+
+    color: #2c3e5f;
+    font-size: 18px;
+    font-weight: 400;
+    background: #f2f2f2;
+    border-radius: 0px;
+    border: 0px !important;
+}
 
 /*override to vertially align modal at middle*/
 
@@ -247,9 +330,9 @@ p.social.social--outline a {
 /*
 @media (min-width: 768px) and (max-width: 1024px) {
   
-	.row-100 {
-		height: auto;
-	}
+  .row-100 {
+    height: auto;
+  }
   
 }*/
 
@@ -260,9 +343,9 @@ p.social.social--outline a {
 
 /*@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-	.row-100 {
-		height: auto;
-	}
+  .row-100 {
+    height: auto;
+  }
   
 }*/
 
@@ -276,11 +359,11 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 {
   
-	.row-100 {
-		height: auto;
-	}
+  .row-100 {
+    height: auto;
+  }
   
-	/**/
+  /**/
 
 }
 
@@ -288,24 +371,24 @@ and (max-device-width : 568px)
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 { 
-	.row-100 {
-		height: auto;
-	}
+  .row-100 {
+    height: auto;
+  }
 }
 
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : landscape) { 
-	.row-100 {
-			height: auto;
-	}
+  .row-100 {
+      height: auto;
+  }
 }
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-	.row-100 {
-			height: auto;
-	}
+  .row-100 {
+      height: auto;
+  }
 }
