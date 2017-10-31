@@ -171,3 +171,9 @@ a:active {
     margin-right: 0px; 
     margin-left: 0px;
 }
+
+.close_detail {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
